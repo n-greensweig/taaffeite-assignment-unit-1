@@ -1,13 +1,17 @@
 /* Add a background color to the header element */
 header {
-    background-color: #7a0019;
+    background-color: rgba(117, 200, 255, .5);
     color: #ffffff;
     text-align: center;
 }
 
+body {
+    background-color: lightgray;
+}
+
 /* Add a fun background color to the main element */
 main {
-    background-color: #ffcc33;
+    background-color: #115599;
 }
 
 /* Align the h1 containing your name in the center of the header*/
@@ -24,19 +28,22 @@ p {
 img {
     width: 100px;
     height: 100px;
-    position: relative;
-    border: 1px double #7a0019;
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
-}
+    border-radius: 50%;
+    position: absolute;
+    margin-right: 5%;
+    top: 5%;
+    right: 0;
+    overflow-x: hidden;
+  }
 
 /* Change the font-family of your list */
 ul {
-    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 /* Add a background color to the footer element */
 footer {
-    background-color: lightgray;
+    background-color: rgba(117, 200, 255, .5);
+    text-align: center;
+    font-size: large;
 }
